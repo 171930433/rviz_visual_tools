@@ -629,7 +629,7 @@ int main(int argc, char** argv)
   demo.testRows(x_location);
   demo.testSize(x_location, rviz_visual_tools::MEDIUM);
   demo.testSize(x_location, rviz_visual_tools::LARGE);
-  demo.testSizes(x_location);
+  // demo.testSizes(x_location);
 
   ROS_INFO_STREAM("Shutting down.");
 
